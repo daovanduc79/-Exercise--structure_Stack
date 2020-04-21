@@ -35,7 +35,8 @@ class Stack
         return current($this->stack);
     }
 
-    public function isEmpty() {
+    public function isEmpty()
+    {
         return empty($this->stack);
     }
 }
